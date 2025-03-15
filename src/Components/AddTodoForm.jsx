@@ -18,6 +18,7 @@ function FormContainer(props) {
             id: activitylist.length + 1,
             activity: userActivity
         }])
+        setUserActivity("")
     }
     return (
         <>
